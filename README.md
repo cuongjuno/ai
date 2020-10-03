@@ -1,6 +1,6 @@
 # ai
-#câu1: DFS - 10 steps
-    #trạng thái tìm kiếm, tạo 1 stack dùng để lưu giữ thông tin của các trạng thái state và các action 
+#   câu1: DFS - 10 steps
+    #trạng thái tìm kiếm, tạo 1 stack dùng để lưu giữ thông tin của các trạng thái state và các           #action 
     border = util.Stack()
     #node này lưu giữ các nơi đã đi qua
     visitedNodes = []
@@ -36,8 +36,8 @@
 
 
 
-#câu 2: tương tự nhưng thay stack bằng hàng đợi queue
-#câu 3: tương tự nhưng thay queue bằng hàng đợi ưu tiên prioity queue
+#   câu 2: tương tự nhưng thay stack bằng hàng đợi queue
+#   câu 3: tương tự nhưng thay queue bằng hàng đợi ưu tiên prioity queue
     frontier = util.PriorityQueue()
    
     visitedNodes = {} 
